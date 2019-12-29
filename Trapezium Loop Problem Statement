@@ -1,0 +1,41 @@
+TRAPEZIUM LOOP Problem Code: TRAPLOOPSolvedSubmit (Practice)
+
+ 
+All submissions for this problem are available.Sumit is fond of various shapes but particularly he likes trapezium. He came across a 
+special trapezium in which non - parallel sides are equal in length and named it as isosceles trapezium. He decided to tell about this 
+fact to his friend Dhananjay.
+
+Dhananjay thought of making a circular closed loop by joining the edges of this isosceles trapezium. So he asked Sumit to calculate the 
+total number of isosceles trapezuims they will require to form a closed loop. As Sumit is busy in preparation of New Year, he asks 
+for your help!
+
+You are given a base angle x of the isosceles trapezuim click here. Your task is to calculate the total number of isosceles trapeziums 
+required to form a closed loop.
+
+Input:
+First line will contain T, number of testcases. Then the testcases follow.
+Each testcase contains of a single line of input, one integer x.
+Output:
+For each testcase, output in a single line the total number of isosceles trapezuims required to form a closed circular loop. It is
+guaranteed that the answer will be always a natural number.
+
+Constraints
+1≤T≤100
+1≤x≤89
+Sample Input:
+1
+80
+Sample Output:
+18
+Author:	4★shrey0304
+Tags:	shrey0304
+Date Added:	17-12-2019
+Time Limit:	1 secs
+Source Limit:	50000 Bytes
+Languages:	C, CPP14, JAVA,
+PYTH, PYTH 3.6, PYPY, CS2, 
+PAS fpc, PAS gpc, RUBY, PHP, GO, 
+NODEJS, HASK, rust, SCALA, swift, D, PERL,
+FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, 
+NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, SQL, kotlin, PERL6,
+TEXT, SCM chicken, PYP3, CLOJ, R, COB, FS

@@ -14,6 +14,16 @@ public static void main(String args[])
 	
 		ArrayList<Long> x=new ArrayList<>();
 		long q,d,n;
+		/*
+		The equation is:-- M=A.N+d  , N=qd , q must be an Integer. M=A.q.d+d d=(M/(Aq+1) factors of M are:- f1,f2.... fi..
+		Let's fi=Aq+1 So,(fi-1)/A =q; In order to make Q an integer , (fi-1)/A=q;
+		Aq+1 is also a divisor of M. d=Aq+1. Therefore , (d-1)/A=q . 
+	Compute , the number we are guessing (N) =q.d. Add it to the list. And then sort the list. And print the list by excluding 0.
+	    
+		
+		
+		
+		*/
 		for(long i=1;i*i<=m;i++)
 		{
 			if(m%i==0)

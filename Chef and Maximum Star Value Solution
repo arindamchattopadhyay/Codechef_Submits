@@ -1,0 +1,45 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner sc=new Scanner(System.in);
+	int tests;
+	tests=sc.nextInt();
+	while(tests>0)
+	{
+		int n,m,max=Integer.MIN_VALUE,count=0;
+		n=sc.nextInt();
+		m=n-1;
+		int x[]=new int[n];
+		for(int i=0;i<n;i++)
+			x[i]=sc.nextInt();
+		HashMap<Integer,Boolean> map=new HashMap<Integer,Boolean>();
+		while(m>=0) {
+			if(map.containsKey(m))
+			{
+				--m;
+				continue;
+			}
+			count=0;
+			for(int j=m-1;j>=0;j--)
+			{
+				if(x[j]%x[m]==0) {
+					count++;
+					map.put(j, true);
+				}
+			}
+			max=Math.max(count, max);
+			--m;
+		}
+		System.out.println(max);
+	tests--;
+	}
+
+	}
+}
